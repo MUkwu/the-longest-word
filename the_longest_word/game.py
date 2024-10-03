@@ -27,6 +27,10 @@ class Game:
             if letter not in self.grid:
                 return False
             else:
+<<<<<<< HEAD
                 response = requests.get(f"https://dictionary.lewagon.com/{word}")
                 json_response = response.json()
                 return json_response['found']
+=======
+                return True
+>>>>>>> 9b0a918202a7398bcca4ea548506eff30a434699
